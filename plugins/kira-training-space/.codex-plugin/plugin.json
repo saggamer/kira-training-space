@@ -1,0 +1,8 @@
+{
+  "name": "kira-training-space",
+  "version": "0.3.0",
+  "description": "Dataset discovery, Colab plans and optional complete local Soup SFT/DPO training, tracking and export.",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "requires_local_executor": true
+}

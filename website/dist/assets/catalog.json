@@ -1,0 +1,198 @@
+{
+  "categories": [
+    {
+      "id": "agentic",
+      "name": "Agentic models",
+      "icon": "\u2318",
+      "description": "Tool calls, planning & reliable actions",
+      "color": "#b8b3ff"
+    },
+    {
+      "id": "live",
+      "name": "Live & voice",
+      "icon": "\u25c9",
+      "description": "Conversations, turn taking & speech",
+      "color": "#9fe5cb"
+    },
+    {
+      "id": "image",
+      "name": "Image editing",
+      "icon": "\u25a7",
+      "description": "Instruction edits & scene preservation",
+      "color": "#f0c59b"
+    },
+    {
+      "id": "coding",
+      "name": "Coding",
+      "icon": "\u27e8\u27e9",
+      "description": "Code generation & executable checks",
+      "color": "#a4d4ff"
+    },
+    {
+      "id": "reasoning",
+      "name": "Reasoning",
+      "icon": "\u2727",
+      "description": "Math, explanations & grounded answers",
+      "color": "#e9a9d4"
+    },
+    {
+      "id": "preference",
+      "name": "Preference tuning",
+      "icon": "\u21c4",
+      "description": "Chosen / rejected pairs for DPO",
+      "color": "#dedb9e"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "starter-agentic",
+      "name": "Agentic models starter",
+      "category": "agentic",
+      "source": "Kira authored",
+      "kind": "starter",
+      "license": "CC0-1.0",
+      "rows": 6,
+      "description": "Six synthetic schema examples for learning the workflow. Expand and review before training.",
+      "format": "Chat JSONL"
+    },
+    {
+      "id": "starter-live",
+      "name": "Live & voice starter",
+      "category": "live",
+      "source": "Kira authored",
+      "kind": "starter",
+      "license": "CC0-1.0",
+      "rows": 6,
+      "description": "Six synthetic schema examples for learning the workflow. Expand and review before training.",
+      "format": "Chat JSONL"
+    },
+    {
+      "id": "starter-image",
+      "name": "Image editing starter",
+      "category": "image",
+      "source": "Kira authored",
+      "kind": "starter",
+      "license": "CC0-1.0",
+      "rows": 6,
+      "description": "Six synthetic schema examples for learning the workflow. Expand and review before training.",
+      "format": "Chat JSONL"
+    },
+    {
+      "id": "starter-coding",
+      "name": "Coding starter",
+      "category": "coding",
+      "source": "Kira authored",
+      "kind": "starter",
+      "license": "CC0-1.0",
+      "rows": 6,
+      "description": "Six synthetic schema examples for learning the workflow. Expand and review before training.",
+      "format": "Chat JSONL"
+    },
+    {
+      "id": "starter-reasoning",
+      "name": "Reasoning starter",
+      "category": "reasoning",
+      "source": "Kira authored",
+      "kind": "starter",
+      "license": "CC0-1.0",
+      "rows": 6,
+      "description": "Six synthetic schema examples for learning the workflow. Expand and review before training.",
+      "format": "Chat JSONL"
+    },
+    {
+      "id": "starter-preference",
+      "name": "Preference tuning starter",
+      "category": "preference",
+      "source": "Kira authored",
+      "kind": "starter",
+      "license": "CC0-1.0",
+      "rows": 6,
+      "description": "Six synthetic schema examples for learning the workflow. Expand and review before training.",
+      "format": "DPO JSONL"
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes Function Calling",
+      "category": "agentic",
+      "repo": "NousResearch/hermes-function-calling-v1",
+      "license": "Apache-2.0",
+      "description": "Structured tool use and JSON responses. Normalize tool messages for your model's chat template.",
+      "kind": "public",
+      "source": "Hugging Face",
+      "format": "Source files",
+      "source_url": "https://huggingface.co/datasets/NousResearch/hermes-function-calling-v1"
+    },
+    {
+      "id": "ultrachat",
+      "name": "UltraChat 200k",
+      "category": "live",
+      "repo": "HuggingFaceH4/ultrachat_200k",
+      "license": "MIT",
+      "description": "Multi-turn text conversations. This is text data, not streaming audio or a speech model.",
+      "kind": "public",
+      "source": "Hugging Face",
+      "format": "Source files",
+      "source_url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k"
+    },
+    {
+      "id": "librispeech",
+      "name": "LibriSpeech ASR",
+      "category": "live",
+      "repo": "openslr/librispeech_asr",
+      "license": "CC-BY-4.0",
+      "description": "Read English speech and transcripts for ASR. Requires an audio trainer; text SFT cannot train speech.",
+      "kind": "public",
+      "source": "Hugging Face",
+      "format": "Source files",
+      "source_url": "https://huggingface.co/datasets/openslr/librispeech_asr"
+    },
+    {
+      "id": "magicbrush",
+      "name": "MagicBrush",
+      "category": "image",
+      "repo": "osunlp/MagicBrush",
+      "license": "CC-BY-4.0",
+      "description": "Instruction-guided source/target edits. Use a diffusion or multimodal trainer; reserve validation groups.",
+      "kind": "public",
+      "source": "Hugging Face",
+      "format": "Source files",
+      "source_url": "https://huggingface.co/datasets/osunlp/MagicBrush"
+    },
+    {
+      "id": "mbpp",
+      "name": "Mostly Basic Python Problems",
+      "category": "coding",
+      "repo": "google-research-datasets/mbpp",
+      "license": "CC-BY-4.0",
+      "description": "Python tasks with tests. Keep official test examples out of fine-tuning.",
+      "kind": "public",
+      "source": "Hugging Face",
+      "format": "Source files",
+      "source_url": "https://huggingface.co/datasets/google-research-datasets/mbpp"
+    },
+    {
+      "id": "openorca",
+      "name": "OpenOrca",
+      "category": "reasoning",
+      "repo": "Open-Orca/OpenOrca",
+      "license": "MIT",
+      "description": "Augmented instruction data. Check original data and model terms for your intended use.",
+      "kind": "public",
+      "source": "Hugging Face",
+      "format": "Source files",
+      "source_url": "https://huggingface.co/datasets/Open-Orca/OpenOrca"
+    },
+    {
+      "id": "ultrafeedback",
+      "name": "UltraFeedback Preferences",
+      "category": "preference",
+      "repo": "argilla/ultrafeedback-binarized-preferences-cleaned",
+      "license": "MIT",
+      "description": "Chosen/rejected responses for DPO. Requires a preference trainer, not ordinary chat SFT.",
+      "kind": "public",
+      "source": "Hugging Face",
+      "format": "Source files",
+      "source_url": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences-cleaned"
+    }
+  ]
+}

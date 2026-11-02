@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.150 --> 00:00:03.393
+Hundreds of models. But what do you actually want to run?
+
+00:00:05.020 --> 00:00:08.753
+Finding the right fit can be hard. So why not fine-tune your own?
+
+00:00:10.420 --> 00:00:12.596
+Well, with Kira, it just got easier.
+
+00:00:13.920 --> 00:00:19.061
+Start with built-in datasets for agents, voice, coding, image editing, and more.
+
+00:00:19.681 --> 00:00:21.302
+Or bring your own dataset.
+
+00:00:23.181 --> 00:00:25.698
+Inspect your data with Soup before you train.
+
+00:00:26.981 --> 00:00:30.586
+Prepare your fine-tuning plan, and connect to Google Colab.
+
+00:00:31.381 --> 00:00:37.845
+Or choose Soup for the whole training run. Inspect, validate, train, and export, all in one workflow.
+
+00:00:38.465 --> 00:00:41.900
+Keep your datasets, runs, and lessons in one history.
+
+00:00:42.665 --> 00:00:49.726
+Then just ask Codex. Use Kira Training Space to inspect my dataset and prepare a run for my review.
+
+00:00:50.346 --> 00:00:55.829
+Kira Training Space. A plugin for Codex and Kira Superapp. Your model. Your way.

@@ -1,0 +1,20 @@
+{
+  "name": "kira-training",
+  "interface": {
+    "displayName": "Kira Training Space"
+  },
+  "plugins": [
+    {
+      "name": "kira-training-space",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kira-training-space"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

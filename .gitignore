@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.env*
+!.env.example
+output/
+training-space-data/
+*.sqlite*
+.DS_Store
+.openai/

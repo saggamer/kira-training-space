@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "kira-training-space",
+  "version": "0.3.0",
+  "description": "Dataset discovery, Colab plans and optional complete local Soup SFT/DPO training, tracking and export.",
+  "author": {
+    "name": "Kira"
+  },
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Kira Training Space",
+        "shortDescription": "A thoughtful home for your next fine-tune"
+      }
+    }
+  }
+}
